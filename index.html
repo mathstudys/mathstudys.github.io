@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>New Tab | Chrome</title>
+<meta charset="UTF-8">
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-C78TXR0XFK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-C78TXR0XFK');
+</script>
+<meta name="language" content="English">
+
+</head>
+
+<body onresize="resize2()">
+    <style>
+        body {
+            margin: 0;
+            overflow-y: hidden;
+            overflow-x: hidden;
+        }
+    </style>
+    <iframe id="new" src="https://sz-games.github.io" style="border: none;" frameborder="0"></iframe>
+    <script>
+        var ifs = document.getElementById('new')
+
+        function resize2() {
+            ifs.style.width = window.innerWidth + 'px'
+            ifs.style.height = window.innerHeight + 'px'
+        }
+        resize2()
+    </script>
+</body>
+</html>
